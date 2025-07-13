@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yee Xian - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cyberpunk Grid Background -->
+    <div class="cyber-grid"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">YX</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="education.html" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="hero-title" data-text="Hi, I'm Yee Xian">
+                    Hi, I'm <span class="gradient-text">Gham Yee Xian</span>
+                </h1>
+                <p class="hero-subtitle">Driven by Code, Inspired by Possibility</p>
+                <p class="hero-description">
+                    I’m a tech-driven learner with skills in software engineering, web development, UX design, and data analysis. I enjoy building user-friendly solutions and uncovering insights through data, and I’m eager to take on opportunities that blend creativity with technical problem-solving.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s">
+                            <i class="fab fa-react"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Passionate about technology and software development, I enjoy learning new programming languages, UX design principles, and data analysis tools to create effective solutions for real-world challenges.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Currently pursuing a Diploma in Information Technology (Expected graduation: 2027).</p>
+                                <a href="education.html" style="display: inline-flex; align-items: center; margin-top: 12px; padding: 6px 12px; background: rgba(157, 78, 221, 0.1); border: 1px solid rgba(157, 78, 221, 0.3); border-radius: 6px; color: var(--neon-purple); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(157, 78, 221, 0.2)'; this.style.borderColor='var(--neon-purple)'; this.style.color='var(--text-primary)';" onmouseout="this.style.background='rgba(157, 78, 221, 0.1)'; this.style.borderColor='rgba(157, 78, 221, 0.3)'; this.style.color='var(--neon-purple)';">
+                                    <i class="fas fa-info-circle" style="margin-right: 6px; font-size: 0.8rem;"></i>
+                                    More Details
+                                </a>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Focus Areas</h4>
+                                <p>Web Development, Programming, UX Design, Data Analysis, Software Engineering</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Interests</h4>
+                                <p>Innovation, Creative Thinking, Problem Solving</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Coding Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Data Analysis Project</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Figma Design Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Pycharm</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Cisco</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript showcasing my skills and projects.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://yee-xian.github.io/yee-xian.portfolio/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/yee-xian/yee-xian.portfolio.git" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Inventory Management Application</h3>
+                        <p>A full-stack task management application with user authentication and real-time updates.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Next.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                            <span>Shadcn</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="inventory-project.html" class="project-link">
+                                <i class="fas fa-info-circle"></i>
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hotel UX Design</h3>
+                        <p>A modern hotel interface designed in Figma with a clean black, white, and blue theme that emphasizes clarity, elegance, and user-friendly navigation.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/proto/qrX6dzQXieu01hGBAJCbyo/Gham-Yee-Xian--244223R-?node-id=55-723&p=f&t=E7KJkcHPXCc7OzzF-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=55%3A723&show-proto-sidebar=1" class="project-link" target="_blank">
+                                <i class="fab fa-figma"></i>
+                                View Design
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        I am actively seeking internship opportunities where I can apply my skills and grow by learning from experienced professionals. I look forward to discussing how I can contribute value to your team.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:yeexian2007@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>yeexian2007@gmail.com</span>
+                        </a>
+                        <a href="tel:+6590675596" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+65 9067 5596</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yee-xian-gham-20725334b" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/yee-xian" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yee Xian. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

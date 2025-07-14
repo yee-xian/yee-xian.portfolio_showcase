@@ -238,6 +238,8 @@ screenshotImages.forEach(img => {
 3. Enable GitHub Pages in repository settings
 4. Portfolio will be live at: `https://your-username.github.io`
 
+**Important for Screenshots**: The portfolio is already configured for GitHub Pages deployment. Screenshots are automatically referenced using the correct paths (`screenshots/filename.png`) that work with GitHub Pages' static file serving.
+
 ### Netlify
 1. Drag and drop portfolio folder to Netlify
 2. Automatic deployment and custom domain options
